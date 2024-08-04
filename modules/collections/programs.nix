@@ -11,8 +11,6 @@
         enable = true;
         enableSSHSupport = true;
       };
-      hyprland = {enable = true;};
     };
-
   };
 }

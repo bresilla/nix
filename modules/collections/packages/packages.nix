@@ -1,7 +1,9 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports =[];
+  imports = [
+    ./hyprland.nix
+  ];
   options = {};
   config = {};
 }
