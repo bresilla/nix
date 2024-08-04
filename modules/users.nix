@@ -25,6 +25,9 @@
       description = "Trim Bresilla";
       extraGroups = [ "bresilla" "uinput" "dialout" "wheel" "innernet" ];
       packages = with pkgs; [];
+      openssh.authorizedKeys.keys = [
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBiuf0IbDIui0Hrw/0x/4d7CLYHUAKFiH82zKb6vzKzG"
+      ];
     };
   };
 }
