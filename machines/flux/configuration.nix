@@ -18,6 +18,6 @@
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBiuf0IbDIui0Hrw/0x/4d7CLYHUAKFiH82zKb6vzKzG"
     ];
 
-    modules.hyprland.enable = false;
+    modules.hyprland.enable = true;
   };
 }
